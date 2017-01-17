@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1"
+            android:background="@android:drawable/ic_menu_mylocation" />
+
+        <TextView
+
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User City"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:id="@+id/userLocation"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:paddingLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular NGOs"
+        android:textColor="@color/primary_text"
+        android:textSize="22dp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:paddingLeft="30dp"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/horizontal_recycler_view"
+            android:background="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"/>
+
+        <Button
+            android:id="@+id/seeAllButtonId"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="See All"
+            android:textSize="18dp"
+            android:textColor="@color/secondary_text"/>
+    </LinearLayout>
+
+    <View
+        android:background="@color/primary_light"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:paddingLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore"
+        android:textColor="@color/primary_text"
+        android:textSize="22dp" />
+
+
+</LinearLayout>

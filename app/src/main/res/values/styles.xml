@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- changing it to no actionbar -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CardViewStyle" parent="android:Widget.TextView">
+
+            <item name="cardCornerRadius">2dp</item>
+            <item name="cardElevation">2dp</item>
+            <item name="cardPreventCornerOverlap">false</item>
+            <item name="cardUseCompatPadding">true</item>
+
+    </style>
+
+</resources>

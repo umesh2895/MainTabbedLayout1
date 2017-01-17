@@ -1,0 +1,136 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:layout_marginTop="45dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <View
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+           android:background="#ECF0F1"
+            android:layout_marginTop="65dp"
+            />
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+                      <ImageView
+            android:id="@+id/icon_ngo_popular_ngo"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_action_ngo_name" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/name_ngo_popular_ngo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/detail_ngo_popular_ngo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_ngo_popular_ngo"
+            android:text=""
+            android:layout_marginLeft="25dp"
+            android:textSize="16dp"
+            android:layout_marginTop="35dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/icon_date_popular_ngo"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:padding="20dp"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/ic_action_date" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+
+
+            <TextView
+                android:id="@+id/date_ngo_popular_ngo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="45dp"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/time_ngo_popular_ngo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date_ngo_popular_ngo"
+                android:text=""
+                android:textSize="15dp"
+                 />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/icon_adress_popular_ngo"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:padding="20dp"
+            android:layout_marginTop="93dp"
+            android:src="@drawable/ic_action_adress" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp">
+
+
+            <TextView
+                android:id="@+id/adress_ngo_popular_ngo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="30dp"
+                android:textSize="15dp"                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
